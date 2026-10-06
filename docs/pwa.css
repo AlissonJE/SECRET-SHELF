@@ -1,0 +1,3 @@
+.install-button{border:1px solid #dfc7b4;background:#fffdfa;color:#8d512d;border-radius:6px;padding:8px 10px;font-size:10px;margin-right:10px;white-space:nowrap}
+.install-button:hover{background:#f4e7dc}
+html[data-theme="dark"] .install-button{background:#352d27;border-color:#59483b;color:#f1c5a4}
