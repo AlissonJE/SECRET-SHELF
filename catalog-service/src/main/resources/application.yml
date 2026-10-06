@@ -1,0 +1,17 @@
+server:
+  port: 8082
+google:
+  books:
+    api-key: AIzaSyAWQXCJy8KWIUdeSWUqZhoG8L8Umm6llvg
+spring:
+  application:
+    name: catalog-service
+  cloud:
+    compatibility-verifier:
+      enabled: true
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}

@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS secret_auth CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS secret_profile CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS secret_shelf CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS secret_location CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
